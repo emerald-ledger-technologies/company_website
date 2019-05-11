@@ -14,6 +14,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Athelas';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Athelas Regular'), url('../fonts/athelas/Athelas-Regular.woff') format('woff');
+}
+
+
+
 html {
   overflow-x: hidden;
   font-size: 1em;
@@ -21,8 +30,8 @@ html {
 
 body {
   background: #000000;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.4);
   font-weight: 300;
@@ -52,15 +61,15 @@ h1, .page-title h1, h2, .section-heading h2, h3, .probootstrap-card .probootstra
 
 h1, .page-title h1 {
   margin-top: 0;
-  font-size: 1.602em;
+  font-size: 1.625em;
 }
 
 h2, .section-heading h2 {
-  font-size: 1.424em;
+  font-size: 1.5em;
 }
 
 h3, .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .service .heading, .service.left-icon h3 {
-  font-size: 1.266em;
+  font-size: 1.375em;
 }
 
 h4, .probootstrap-panel .panel .panel-title {
@@ -108,11 +117,12 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   float: left;
   color: #ffffff;
   padding-left: 0px;
-  font-size: 20px;
+  font-size: 45px;
   display: block;
   text-transform: uppercase;
   font-weight: 900;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Athelas", sans-serif;
+  letter-spacing: 2px;
 }
 
 .probootstrap-logo:hover, .probootstrap-logo:focus, .probootstrap-logo:active {
@@ -126,10 +136,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-nav {
-  margin-left: 60px;
+  margin-left: 0px;
   text-align: left;
   float: left;
-  width: calc(100% - 200px);
+  width: calc(100% - 50px);
   position: relative;
 }
 
@@ -209,10 +219,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-main-nav li {
   margin: 0;
-  padding: 0 10px;
+  padding-right:15px;
   list-style: none;
   display: inline;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li {
@@ -223,11 +233,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-main-nav li a {
-  font-weight: 400;
+  font-weight: 200;
   text-transform: uppercase;
   padding: 10px 0;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12.5px;
 }
 
 .probootstrap-main-nav li a:hover {
@@ -333,7 +343,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-right-nav {
   position: absolute;
-  top: 3px;
+  top: -40px;
   right: 0;
   margin: 0;
   padding: 0;
@@ -634,7 +644,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   margin-top: 0;
   margin-bottom: 10px;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 30px;
 }
@@ -726,11 +736,16 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-footer-widget .heading {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 17.5px;
   letter-spacing: .1em;
   margin-bottom: 30px;
   font-weight: 400;
 }
+
+.probootstrap-footer-widget p {
+  font-size: 12.5px;
+}
+
 
 .probootstrap-footer-widget.right {
   text-align: right;
@@ -834,7 +849,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-footer form .btn.btn-subscribe {
   height: 40px;
   line-height: 0px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -855,7 +870,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer .copyright p {
-  font-size: 15px;
+  font-size: 12.5px;
+  font-weight: '200';
 }
 
 .probootstrap-link-wrap {
@@ -872,6 +888,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding: 0;
   margin: 0;
   display: block;
+  font-size: 12.5px;
 }
 
 .stack-link li {
@@ -896,7 +913,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .section-heading h2 {
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .lead {
@@ -1042,16 +1059,17 @@ figure:hover figcaption, figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  padding-top: 350px;
+  padding-top: 300px;
   max-width: 600px;
   margin: 0 auto;
 }
 
 .slides-text h2 {
-  font-weight: 100;
-  font-size: 50px;
+  font-weight: 900;
+  font-size: 35px;
   color: #ffffff;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1792,7 +1810,7 @@ figure:hover figcaption, figure:focus figcaption {
 .service.left-icon {
   padding: 0px;
   border: none;
-  margin-bottom: 50px !important;
+  margin-bottom: 0px !important;
   display: table;
 }
 
@@ -1803,16 +1821,16 @@ figure:hover figcaption, figure:focus figcaption {
 
 .service.left-icon .icon {
   height: 10px !important;
-  width: 90px;
+  width: 100px;
   position: relative;
   top: 0px;
   border: none;
 }
 
 .service.left-icon .icon i {
-  font-size: 40px;
+  font-size: 50px;
   position: absolute;
-  top: 20px;
+  top: 10px;
 }
 
 .service.left-icon .text {
@@ -1821,7 +1839,7 @@ figure:hover figcaption, figure:focus figcaption {
 
 .service.left-icon .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .service.left-icon .probootstrap-card-heading, .service.left-icon .heading, .service.left-icon h3 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .service.left-icon p:last-child {
@@ -2009,7 +2027,7 @@ figure:hover figcaption, figure:focus figcaption {
   font-weight: 300;
   font-size: 170px;
   line-height: 60px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   text-transform: uppercase;
 }
 
