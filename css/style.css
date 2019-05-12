@@ -81,7 +81,7 @@ small, .font_small {
 }
 
 p, ul, ol, figure {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.125em;
 }
 
 a {
@@ -105,7 +105,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-header {
-  padding-top: 50px;
+  padding-top: 45px;
   padding-bottom: 30px;
   width: 100%;
   z-index: 12;
@@ -209,7 +209,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-main-nav {
   margin: 0;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav {
@@ -238,7 +238,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   text-transform: uppercase;
   padding: 10px 0;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 12.5px;
+  font-size: 15px;
 }
 
 .probootstrap-main-nav li a:hover {
@@ -344,7 +344,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-right-nav {
   position: absolute;
-  top: 15px;
+  top: 20px;
   right: 0px;
   margin: 0;
   padding: 0;
@@ -895,7 +895,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .stack-link li {
   list-style: none;
   padding: 0;
-  margin: 0 0 10px 0;
+  margin: 0 0 12.5px 0;
 }
 
 .stack-link small {
@@ -1060,7 +1060,7 @@ figure:hover figcaption, figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  padding-top: 275px;
+  padding-top: 300px;
   max-width: 600px;
   margin: 0 auto;
 }
