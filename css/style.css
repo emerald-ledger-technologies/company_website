@@ -96,7 +96,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-header {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
   width: 100%;
   z-index: 12;
@@ -108,11 +108,15 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   float: left;
   color: #ffffff;
   padding-left: 0px;
-  font-size: 20px;
+  font-size: 45px;
   display: block;
   text-transform: uppercase;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-weight: 800;
+=======
+  font-weight: 900;
+>>>>>>> parent of ff64af6... update
   font-family: "Athelas", sans-serif;
   letter-spacing: 2px;
 =======
@@ -205,22 +209,25 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-main-nav {
   margin: 0;
   padding: 0;
-  margin-top: 15px;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav {
   float: left;
-  margin-top: 30px;
+  margin-top: 40px;
   width: 100%;
 }
 
 .probootstrap-main-nav li {
   margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding-right: 30px;
 =======
   padding: 0 10px;
 >>>>>>> parent of 2217153... visual changes
+=======
+  padding-right:15px;
+>>>>>>> parent of ff64af6... update
   list-style: none;
   display: inline;
   font-size: 18px;
@@ -328,7 +335,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-header-social {
   position: absolute;
-  top: 40px;
+  top: 34px;
   right: 60px;
 }
 
@@ -345,12 +352,17 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-right-nav {
   position: absolute;
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: 15px;
   right: 0px;
 =======
   top: 3px;
   right: 0;
 >>>>>>> parent of 2217153... visual changes
+=======
+  top: -40px;
+  right: 0;
+>>>>>>> parent of ff64af6... update
   margin: 0;
   padding: 0;
 }
@@ -375,7 +387,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   cursor: pointer;
   text-decoration: none;
   position: relative;
-  margin-top: 20px;
 }
 
 .probootstrap-burger-menu i {
@@ -452,10 +463,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .btn {
   border: none;
-  border-radius: 5px;
-  padding: 15px;
+  border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-transform: uppercase;
   letter-spacing: .1em;
   -webkit-transition: .3s all ease-in;
@@ -467,7 +479,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 12.5px;
+  font-size: 13px;
 }
 
 .btn.btn-lg {
@@ -1059,15 +1071,20 @@ figure:hover figcaption, figure:focus figcaption {
   z-index: 99;
   position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding-top: 275px;
 =======
   padding-top: 350px;
 >>>>>>> parent of 2217153... visual changes
+=======
+  padding-top: 300px;
+>>>>>>> parent of ff64af6... update
   max-width: 600px;
   margin: 0 auto;
 }
 
 .slides-text h2 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-weight:'200';
   font-size: 45px;
@@ -1075,6 +1092,10 @@ figure:hover figcaption, figure:focus figcaption {
   font-weight: 100;
   font-size: 50px;
 >>>>>>> parent of 2217153... visual changes
+=======
+  font-weight: 900;
+  font-size: 35px;
+>>>>>>> parent of ff64af6... update
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -1198,15 +1219,9 @@ figure:hover figcaption, figure:focus figcaption {
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-location span {
-  font-weight: '400';
-  font-size: 15px;
-
+  font-weight: 400;
+  font-size: 14px;
   color: #bdbdbd;
-}
-
-.category {
-  font-size: 12.5px;
-  margin-top: 5px;
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-category {
@@ -1271,7 +1286,7 @@ figure:hover figcaption, figure:focus figcaption {
 }
 
 .probootstrap-card.probootstrap-listing:focus, .probootstrap-card.probootstrap-listing:hover {
-  top: 0px;
+  top: -20px;
   -webkit-box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.2);
 }
@@ -1759,10 +1774,6 @@ figure:hover figcaption, figure:focus figcaption {
   text-transform: uppercase;
 }
 
-.panel-title a {
-  font-size: 20px;
-}
-
 .probootstrap-social {
   padding: 0;
   margin: 0;
@@ -1812,7 +1823,7 @@ figure:hover figcaption, figure:focus figcaption {
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
 }
 
@@ -1846,6 +1857,7 @@ figure:hover figcaption, figure:focus figcaption {
 
 .service.left-icon .icon i {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 30px;
   position: absolute;
   top: 15px;
@@ -1854,6 +1866,11 @@ figure:hover figcaption, figure:focus figcaption {
   position: absolute;
   top: 20px;
 >>>>>>> parent of 2217153... visual changes
+=======
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+>>>>>>> parent of ff64af6... update
 }
 
 .service.left-icon .text {
@@ -1863,10 +1880,14 @@ figure:hover figcaption, figure:focus figcaption {
 .service.left-icon .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .service.left-icon .probootstrap-card-heading, .service.left-icon .heading, .service.left-icon h3 {
   margin-top: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-bottom: 20px;
 =======
   margin-bottom: 10px;
 >>>>>>> parent of 2217153... visual changes
+=======
+  margin-bottom: 15px;
+>>>>>>> parent of ff64af6... update
 }
 
 .service.left-icon p:last-child {
