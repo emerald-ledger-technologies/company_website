@@ -105,7 +105,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-header {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
   width: 100%;
   z-index: 12;
@@ -117,10 +117,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   float: left;
   color: #ffffff;
   padding-left: 0px;
-  font-size: 45px;
+  font-size: 20px;
   display: block;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 800;
   font-family: "Athelas", sans-serif;
   letter-spacing: 2px;
 }
@@ -209,17 +209,18 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-main-nav {
   margin: 0;
   padding: 0;
+  margin-top: 15px;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav {
   float: left;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 100%;
 }
 
 .probootstrap-main-nav li {
   margin: 0;
-  padding-right:15px;
+  padding-right: 30px;
   list-style: none;
   display: inline;
   font-size: 15px;
@@ -327,7 +328,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-header-social {
   position: absolute;
-  top: 34px;
+  top: 40px;
   right: 60px;
 }
 
@@ -343,8 +344,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-right-nav {
   position: absolute;
-  top: -40px;
-  right: 0;
+  top: 15px;
+  right: 0px;
   margin: 0;
   padding: 0;
 }
@@ -369,6 +370,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   cursor: pointer;
   text-decoration: none;
   position: relative;
+  margin-top: 20px;
 }
 
 .probootstrap-burger-menu i {
@@ -445,11 +447,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .btn {
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  padding: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
   text-transform: uppercase;
   letter-spacing: .1em;
   -webkit-transition: .3s all ease-in;
@@ -461,7 +462,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 13px;
+  font-size: 12.5px;
 }
 
 .btn.btn-lg {
@@ -1059,14 +1060,14 @@ figure:hover figcaption, figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  padding-top: 300px;
+  padding-top: 275px;
   max-width: 600px;
   margin: 0 auto;
 }
 
 .slides-text h2 {
-  font-weight: 900;
-  font-size: 35px;
+  font-weight:'200';
+  font-size: 45px;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1191,9 +1192,15 @@ figure:hover figcaption, figure:focus figcaption {
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-location span {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: '400';
+  font-size: 15px;
+
   color: #bdbdbd;
+}
+
+.category {
+  font-size: 12.5px;
+  margin-top: 5px;
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-category {
@@ -1258,7 +1265,7 @@ figure:hover figcaption, figure:focus figcaption {
 }
 
 .probootstrap-card.probootstrap-listing:focus, .probootstrap-card.probootstrap-listing:hover {
-  top: -20px;
+  top: 0px;
   -webkit-box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.2);
 }
@@ -1746,6 +1753,10 @@ figure:hover figcaption, figure:focus figcaption {
   text-transform: uppercase;
 }
 
+.panel-title a {
+  font-size: 20px;
+}
+
 .probootstrap-social {
   padding: 0;
   margin: 0;
@@ -1795,7 +1806,7 @@ figure:hover figcaption, figure:focus figcaption {
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -1828,9 +1839,9 @@ figure:hover figcaption, figure:focus figcaption {
 }
 
 .service.left-icon .icon i {
-  font-size: 50px;
+  font-size: 30px;
   position: absolute;
-  top: 10px;
+  top: 15px;
 }
 
 .service.left-icon .text {
@@ -1839,7 +1850,7 @@ figure:hover figcaption, figure:focus figcaption {
 
 .service.left-icon .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .service.left-icon .probootstrap-card-heading, .service.left-icon .heading, .service.left-icon h3 {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .service.left-icon p:last-child {
