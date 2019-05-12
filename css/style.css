@@ -871,7 +871,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer .copyright p {
-  font-size: 12.5px;
+  font-size: 10px;
   font-weight: '200';
 }
 
@@ -1067,7 +1067,7 @@ figure:hover figcaption, figure:focus figcaption {
 
 .slides-text h2 {
   font-weight:'200';
-  font-size: 50px;
+  font-size: 45px;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2196,6 +2196,10 @@ figure:hover figcaption, figure:focus figcaption {
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
   right: 60px;
+}
+
+.flexslider {
+  margin-bottom: 50px;
 }
 
 .flex-control-paging li a {
