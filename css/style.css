@@ -730,9 +730,16 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer-widget {
-  float: left;
-  width: 100%;
-  margin-bottom: 30px;
+  padding:25px;
+  padding-top:0px;
+}
+
+.flex-grow-big {
+  flex-grow: 2;
+}
+
+.flex-grow-small{
+  flex-grow: 1
 }
 
 .probootstrap-footer-widget .heading {
@@ -968,6 +975,10 @@ figure:hover figcaption, figure:focus figcaption {
   display: block;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
+}
+
+.top-bottom-border {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .probootstrap-panel .panel .panel-heading a:after {
