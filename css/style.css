@@ -125,6 +125,17 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   letter-spacing: 2px;
 }
 
+ul li a.probootstrap-logo {
+  font-size: 30px;
+  margin-top: -15px;
+  margin-right: 50px;
+  color: #fff;
+  border-color: #fff;
+  border-width: 0.1px;
+  border-style: solid;
+  padding: 0 12.5px;
+}
+
 .probootstrap-logo:hover, .probootstrap-logo:focus, .probootstrap-logo:active {
   color: #ffffff;
 }
