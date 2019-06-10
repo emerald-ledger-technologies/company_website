@@ -262,12 +262,7 @@ ul li a.probootstrap-logo {
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a {
   margin-bottom: 10px;
-  padding: 5px 0;
   display: block;
-}
-
-.probootstrap-mobile-menu-active .probootstrap-main-nav li a {
-  border-bottom: none !important;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a:hover {
@@ -1843,7 +1838,6 @@ figure:hover figcaption, figure:focus figcaption {
 .service.left-icon {
   padding: 0px;
   border: none;
-  margin-bottom: 0px !important;
   display: table;
 }
 
